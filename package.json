@@ -1,0 +1,30 @@
+{
+  "name": "@dmitriyzverev/prettier-config",
+  "version": "2.0.0",
+  "homepage": "https://github.com/DmitriyZverev/prettier-config",
+  "bugs": {
+    "url": "https://github.com/DmitriyZverev/prettier-config/issues",
+    "email": "opensource@dmitriyzverev.ru"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Dmitriy Zverev",
+    "email": "opensource@dmitriyzverev.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmitriyZverev/prettier-config.git"
+  },
+  "scripts": {
+    "build": "rm -rf .package && mkdir .package && cp -r index.js src package.json LICENSE README.md .package",
+    "prettier:fix": "npx prettier --write \"**/*.{js,json,yml,md}\"",
+    "prettier:check": "npx prettier --check \"**/*.{js,json,yml,md}\""
+  },
+  "peerDependencies": {
+    "prettier": "^2.0.0 || ^3.0.0"
+  },
+  "devDependencies": {
+    "@dmitriyzverev/prettier-config": "2.0.0",
+    "prettier": "3.2.5"
+  }
+}
