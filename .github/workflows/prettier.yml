@@ -3,4 +3,4 @@ on:
     - pull_request
 jobs:
     prettier:
-        uses: DmitriyZverev/.github/workflows/eslint.yml@1.0.0
+        uses: DmitriyZverev/.github/.github/workflows/prettier.yml@v1.0.0
