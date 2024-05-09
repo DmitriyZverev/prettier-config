@@ -1,6 +1,6 @@
 # @dmitriyzverev/prettier-config
 
-_The [Prettier](https://prettier.io/) configuration that uses in my packages_
+_The [Prettier](https://prettier.io/) configuration that uses in my projects_
 
 ---
 
