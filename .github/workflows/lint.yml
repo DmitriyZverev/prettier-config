@@ -1,0 +1,8 @@
+name: Prettier
+on:
+    - pull_request
+jobs:
+    lint:
+        uses: DmitriyZverev/.github/.github/workflows/lint.yml@24f22a41e6d3a5d72c62fef8a64b5e4da107d7c5
+        with:
+            eslint: false
