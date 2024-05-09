@@ -1,6 +1,0 @@
-name: Prettier
-on:
-    - pull_request
-jobs:
-    prettier:
-        uses: DmitriyZverev/.github/.github/workflows/prettier.yml@v1.0.0
