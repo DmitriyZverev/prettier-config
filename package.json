@@ -17,8 +17,8 @@
   },
   "scripts": {
     "build": "rm -rf .package && mkdir .package && cp -r index.js src package.json LICENSE README.md .package",
-    "prettier:fix": "npx prettier --write \"**/*.{js,json,yml,md}\"",
-    "prettier:check": "npx prettier --check \"**/*.{js,json,yml,md}\""
+    "formatter:fix": "npx prettier --write \"**/*.{js,json,yml,md}\"",
+    "formatter:check": "npx prettier --check \"**/*.{js,json,yml,md}\""
   },
   "peerDependencies": {
     "prettier": "^2.0.0 || ^3.0.0"
