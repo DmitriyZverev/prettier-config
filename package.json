@@ -1,6 +1,7 @@
 {
   "name": "@dmitriyzverev/prettier-config",
   "version": "2.0.0",
+  "description": "A configuration used in projects within the \"@dmitriyzverev\" scope",
   "homepage": "https://github.com/DmitriyZverev/prettier-config",
   "bugs": {
     "url": "https://github.com/DmitriyZverev/prettier-config/issues",

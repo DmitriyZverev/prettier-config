@@ -1,6 +1,7 @@
 # @dmitriyzverev/prettier-config
 
-_The [Prettier](https://prettier.io/) configuration that uses in my projects_
+_A [Prettier](https://prettier.io/) configuration used in projects within the
+`@dmitriyzverev` scope_
 
 ---
 
@@ -9,7 +10,7 @@ _The [Prettier](https://prettier.io/) configuration that uses in my projects_
 1. Install dependencies:
 
     ```bash
-    npm i prettier @dmitriyzverev/prettier-config
+    npm i -DE prettier @dmitriyzverev/prettier-config
     ```
 
 2. Configure `.prettierrc` file:
