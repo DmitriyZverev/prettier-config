@@ -2,7 +2,7 @@ name: Analyze code
 on:
     - pull_request
 jobs:
-    lint:
+    analize:
         uses: DmitriyZverev/.github/.github/workflows/analyze.yml@488ff4b340a758d3c9ddb9943e57e6dd2defea40
         with:
             quality: false
