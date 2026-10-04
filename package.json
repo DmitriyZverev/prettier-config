@@ -1,6 +1,6 @@
 {
   "name": "@dmitriyzverev/prettier-config",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A configuration used in projects within the \"@dmitriyzverev\" scope",
   "homepage": "https://github.com/DmitriyZverev/prettier-config",
   "bugs": {
@@ -16,16 +16,20 @@
     "type": "git",
     "url": "https://github.com/DmitriyZverev/prettier-config.git"
   },
+  "type": "module",
   "scripts": {
-    "build": "rm -rf .package && mkdir .package && cp -r index.js src package.json LICENSE README.md .package",
-    "formatter:fix": "npx prettier --write \"**/*.{js,json,yml,md}\"",
-    "formatter:check": "npx prettier --check \"**/*.{js,json,yml,md}\""
+    "build": "rm -rf .package && npx tsc --outDir .package && cp package.json LICENSE README.md .package",
+    "formatter:fix": "npx prettier --write \"**/*.{ts,js,json,yml,md}\"",
+    "formatter:check": "npx prettier --check \"**/*.{ts,js,json,yml,md}\""
   },
   "peerDependencies": {
     "prettier": "^2.0.0 || ^3.0.0"
   },
   "devDependencies": {
     "@dmitriyzverev/prettier-config": "2.0.0",
-    "prettier": "3.2.5"
+    "@dmitriyzverev/typescript-config": "1.1.1",
+    "@types/node": "24.19.1",
+    "prettier": "3.9.9",
+    "typescript": "5.9.3"
   }
 }

@@ -1,8 +1,10 @@
+import type {Config} from 'prettier';
+
 const SMALL_LINE_WIDTH = 80;
 const LARGE_LINE_WIDTH = 120;
 const TAB_WIDTH = 4;
 
-module.exports = {
+export default {
     printWidth: LARGE_LINE_WIDTH,
     tabWidth: TAB_WIDTH,
     useTabs: false,
@@ -32,4 +34,4 @@ module.exports = {
             },
         },
     ],
-};
+} satisfies Config;
