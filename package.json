@@ -1,6 +1,6 @@
 {
   "name": "@dmitriyzverev/prettier-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A configuration used in projects within the \"@dmitriyzverev\" scope",
   "homepage": "https://github.com/DmitriyZverev/prettier-config",
   "bugs": {
@@ -17,6 +17,9 @@
     "url": "https://github.com/DmitriyZverev/prettier-config.git"
   },
   "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
   "scripts": {
     "build": "rm -rf .package && npx tsc --outDir .package && cp package.json LICENSE README.md .package",
     "formatter:fix": "npx prettier --write \"**/*.{ts,js,json,yml,md}\"",
