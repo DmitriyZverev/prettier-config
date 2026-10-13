@@ -29,7 +29,7 @@
     "prettier": "^2.0.0 || ^3.0.0"
   },
   "devDependencies": {
-    "@dmitriyzverev/prettier-config": "2.0.0",
+    "@dmitriyzverev/prettier-config": "3.0.1",
     "@dmitriyzverev/typescript-config": "1.1.1",
     "@types/node": "24.19.1",
     "prettier": "3.9.9",
